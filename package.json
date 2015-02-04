@@ -1,0 +1,32 @@
+{
+  "name": "node-module-linker",
+  "version": "0.0.0",
+  "description": "** NOT uploaded yet **",
+  "main": "",
+  "files": [
+    "bin",
+    "lib",
+    "src"
+  ],
+  "bin": {
+    "nml": "bin/nml"
+  },
+  "scripts": {
+    "test": "bin/rajah test/spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:tyskdm/node-module-linker.git"
+  },
+  "author": {
+    "name": "Tsuyoshi Kodama",
+    "email": "tsuyoshi.kodama@gmail.com"
+  },
+  "keywords": [
+  ],
+  "license": "MIT",
+  "dependencies": {
+  },
+  "devDependencies": {
+  }
+}
