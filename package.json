@@ -1,7 +1,7 @@
 {
   "name": "node-module-linker",
-  "version": "0.0.0",
-  "description": "** NOT uploaded yet **",
+  "version": "0.0.1",
+  "description": "A tool to pack Node.js module files with the special `require` function into one `.js` file.",
   "main": "",
   "files": [
     "bin",
