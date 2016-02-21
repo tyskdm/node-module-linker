@@ -12,7 +12,8 @@
     "nml": "bin/nml"
   },
   "scripts": {
-    "test": "./node_modules/.bin/jasmine-node test/spec"
+    "test": "jasmine-node test/spec",
+    "jshint": "grunt jshint"
   },
   "repository": {
     "type": "git",
