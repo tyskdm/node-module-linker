@@ -6,7 +6,8 @@
   "files": [
     "bin",
     "lib",
-    "src"
+    "src",
+    "test"
   ],
   "bin": {
     "nml": "bin/nml"
