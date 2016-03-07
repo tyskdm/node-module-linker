@@ -1,6 +1,6 @@
 # node module linker
 
-A tool to pack Node.js module files with the special `require` function into one `.js` file.
+A tool to pack Node.js module files with the special require function into one .js file.
 
 1. [Version info](#version-info)
 2. [First example](#first-example)
@@ -21,7 +21,7 @@ Changes:
 - Change option tag name in package.json, to 'nmlConfig'.
 - Change 'loaded' flag rule for main module. It's for original kernelfile function.
 
-#### Related package
+Related package:
 * ['codegs-core'](https://www.npmjs.org/package/codegs-core) includes some Node.js core modules.
 
 ## First example
