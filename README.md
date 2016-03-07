@@ -18,7 +18,7 @@ Date: 2016-02-27
 
 Changes:
 - Change 'loaded' flag rule for main module. It's for original kernelfile function.
-- Change option tag name in package.json, to 'nml_option'.
+- Change option tag name in package.json, to 'nmlConfig'.
 - Documents.
 
 #### Related package
@@ -203,7 +203,7 @@ Or, set in 'package.json'.
 
 ```json
 }
-    "nml_option": {
+    "nmlConfig": {
         "core": [ "your/core/files" ]
     }
 }
@@ -221,7 +221,7 @@ Or set in 'package.json'.
 
 ```json
 }
-    "nml_option": {
+    "nmlConfig": {
         "node_core": [ "your/node_core/files" ]
     }
 }
