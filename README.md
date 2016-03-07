@@ -10,16 +10,16 @@ A tool to pack Node.js module files with the special `require` function into one
 
 ## Version info:
 
-Version: 0.9.0
+Version: 0.9.1
 
 Stability: [1 - Experimental](http://nodejs.org/api/documentation.html#documentation_stability_index) (but almost Stable)
 
-Date: 2016-02-27
+Date: 2016-03-07
 
 Changes:
+- Add ./util/fs : it's tiny fs (only few methods) to search packed files in nml output.
+- Change option tag name in package.json, to 'nmlConfig'.
 - Change 'loaded' flag rule for main module. It's for original kernelfile function.
-- Change option tag name in package.json, to 'nml_option'.
-- Documents.
 
 #### Related package
 * ['codegs-core'](https://www.npmjs.org/package/codegs-core) includes some Node.js core modules.
@@ -203,7 +203,7 @@ Or, set in 'package.json'.
 
 ```json
 }
-    "nml_option": {
+    "nmlConfig": {
         "core": [ "your/core/files" ]
     }
 }
@@ -221,7 +221,7 @@ Or set in 'package.json'.
 
 ```json
 }
-    "nml_option": {
+    "nmlConfig": {
         "node_core": [ "your/node_core/files" ]
     }
 }
